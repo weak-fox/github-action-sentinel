@@ -1,0 +1,25 @@
+name: Feature request
+description: Propose a repository improvement tied to a real maintainer need
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What maintainer problem should this solve?
+      description: Describe the repeated pain point or workflow gap.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Describe the smallest useful change.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Extra context
+      description: Share links, screenshots, or related issues if useful.
